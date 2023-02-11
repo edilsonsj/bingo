@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo</title>
+</head>
+<body onload="getCard()">
+    <header>Bingo!</header>
+    <section>
+        <div id="minha-cartela">
+            <p><input id="getCards" type="button" value="Gerar Cartelas"></p>
+            <p>Sua cartela</p>
+            <table id="bingotable">
+                <tr class="table-header">
+                </tr>
+                <tr>
+                    <td class="bl">B</td>
+                    <td id="q0"> &nbsp;</td>
+                    <td id="q1"> &nbsp;</td>
+                    <td id="q2"> &nbsp;</td>
+                    <td id="q3"> &nbsp;</td>
+                    <td id="q4"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">I</td>
+                    <td id="q5"> &nbsp;</td>
+                    <td id="q6"> &nbsp;</td>
+                    <td id="q7"> &nbsp;</td>
+                    <td id="q8"> &nbsp;</td>
+                    <td id="q9"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">N</td>
+                    <td id="q10"> &nbsp;</td>
+                    <td id="q11"> &nbsp;</td>
+                    <td id="q12"> &nbsp;</td>
+                    <td id="q13"> &nbsp;</td>
+                    <td id="q14"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">G</td>
+                    <td id="q15"> &nbsp;</td>
+                    <td id="q16"> &nbsp;</td>
+                    <td id="q17"> &nbsp;</td>
+                    <td id="q18"> &nbsp;</td>
+                    <td id="q19"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">O</td>
+                    <td id="q20"> &nbsp;</td>
+                    <td id="q21"> &nbsp;</td>
+                    <td id="q22"> &nbsp;</td>
+                    <td id="q23"> &nbsp;</td>
+                    <td id="q24"> &nbsp;</td>
+                </tr>
+            </table> 
+            <p class="status"></p> 
+
+
+            <p>Cartela da Máquina</p>
+            <table id="bingotableMáquina">
+                <tr class="table-header">
+                </tr>
+                <tr>
+                    <td class="bl">B</td>
+                    <td id="mq0"> &nbsp;</td>
+                    <td id="mq1"> &nbsp;</td>
+                    <td id="mq2"> &nbsp;</td>
+                    <td id="mq3"> &nbsp;</td>
+                    <td id="mq4"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">I</td>
+                    <td id="mq5"> &nbsp;</td>
+                    <td id="mq6"> &nbsp;</td>
+                    <td id="mq7"> &nbsp;</td>
+                    <td id="mq8"> &nbsp;</td>
+                    <td id="mq9"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">N</td>
+                    <td id="mq10"> &nbsp;</td>
+                    <td id="mq11"> &nbsp;</td>
+                    <td id="mq12"> &nbsp;</td>
+                    <td id="mq13"> &nbsp;</td>
+                    <td id="mq14"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">G</td>
+                    <td id="mq15"> &nbsp;</td>
+                    <td id="mq16"> &nbsp;</td>
+                    <td id="mq17"> &nbsp;</td>
+                    <td id="mq18"> &nbsp;</td>
+                    <td id="mq19"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="bl">O</td>
+                    <td id="mq20"> &nbsp;</td>
+                    <td id="mq21"> &nbsp;</td>
+                    <td id="mq22"> &nbsp;</td>
+                    <td id="mq23"> &nbsp;</td>
+                    <td id="mq24"> &nbsp;</td>
+                </tr>
+            </table> 
+            <p class="maquinaStatus"></p>   
+        </div>
+            <p><input id="init" type="button" value="Começar Sorteio"> <span id="counter"></span></p>
+        <div id="sorteio">
+            Números Sorteados:
+            <br>
+        </div>
+        <div id="num-sorteados">
+            
+        </div>
+        <div>
+            <p> 
+            <br><br><input type="button" value="Reiniciar" onclick="window.location.reload()">
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>Lab. de Programação WEB I © 2022.2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

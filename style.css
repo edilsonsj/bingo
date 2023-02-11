@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #46a05b;
+    margin-top: 0%;
+}
+
+header, h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 50px;
+    color: rgb(2, 65, 15);
+}
+
+section{
+    align-content: center;
+    margin: auto;
+    width: 50vw;
+    background: white;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input {
+    background: #2a8c4a;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 12px;
+    border: 1px solid #265535;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+input:hover{background: #e7ffec; color: #2a8c4a; border: 1px solid #2a8c4a;}
+
+
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+}
+
+
+.bl{
+    background-color: #46a05b;
+    color: #0e3316;
+    font-weight: bolder;
+    
+}
+
+table { 
+    border-collapse: collapse;
+    border: 1px solid #55a366;
+    text-align: center;
+    font-size: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr {
+    display: block; float: left;
+}
+
+th, td {
+    display: block; border: 1px solid rgb(0, 0, 0); 
+    border: 1px solid #55a366;
+    color: #4e4e4e;
+}
